@@ -1,6 +1,6 @@
 # Yahtzee-Game-TS
 
-![yahtzee-game-preview](yahtzeetsPNG.png)
+![yahtzee-game-preview](/yahtzeetsPNG.png)
 My take on the dice game, Yahtzee!
 
 I wanted to try and create my own version of Yahtzee which was inspired from Balatro. I like the abilities presented in that game so that the player can munipulate outcomes with variance. I want to first make a Yahtzee game that plays normally, then introduce ways the player can alter dice-rolls, use abilties, gain dice etc

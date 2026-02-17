@@ -1,0 +1,20 @@
+{
+  "name": "Yahtzee Typescript",
+  "version": "1.0.0",
+  "description": "Yahtzee game project",
+  "main": "yahtzeets.html",
+  "scripts": {
+    "start": "parcel yahtzeets.html",
+    "build": "parcel build yahtzeets.html"
+  },
+  "dependencies": {
+    "parcel-bundler": "1.6.1"
+  },
+  "devDependencies": {
+    "typescript": "4.4.4"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": ["typescript", "javascript"]
+}

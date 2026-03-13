@@ -131,8 +131,9 @@ function rollTheDice() {
       } else {
         dice.value = randomRoll();
       }
-      dice.classList.add(`dice-face-${dice.value}`);
 
+      dice.classList.add(`dice-face-${dice.value}`);
+      console.log(dice.value, dice.className);
       let span = document.createElement("span");
       span.classList.add("dot");
 
@@ -325,9 +326,9 @@ function checkScore() {
   for (let i = 0; i < scoreTypeCheck.length; i++) {
     if (scoreTypeCheck[i].regex.test(check)) {
       if (
-        !document
-          .getElementById(scoreTypeCheck[i].score)
-          ?.classList.contains("alreadyClicked")
+        !(
+          document.getElementById(scoreTypeCheck[i].score) as any
+        ).classList.contains("alreadyClicked")
       ) {
         (
           document.getElementById(scoreTypeCheck[i].score) as any
@@ -344,9 +345,9 @@ function checkScore() {
   }
   if (chance) {
     if (
-      !document
-        .getElementById("chance-score")
-        ?.classList.contains("alreadyClicked")
+      !(document.getElementById("chance-score") as any).classList.contains(
+        "alreadyClicked"
+      )
     ) {
       (document.getElementById("chance-score") as any).style.display = "block";
       (document.getElementById("chance-score") as any).value =

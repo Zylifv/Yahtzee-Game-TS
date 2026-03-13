@@ -1,11 +1,12 @@
 {
-  "name": "Yahtzee Typescript",
+  "name": "yahtzee-game-ts",
   "version": "1.0.0",
+  "type": "module",
   "description": "Yahtzee game project",
   "main": "yahtzeets.html",
   "scripts": {
-    "start": "parcel yahtzeets.html",
-    "build": "parcel build yahtzeets.html"
+    "start": "parcel src/yahtzeets.html",
+    "build": "parcel build src/yahtzeets.html"
   },
   "dependencies": {
     "parcel-bundler": "1.6.1"

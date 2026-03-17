@@ -18,7 +18,7 @@ I have now implemented a way for the user to click a one-time use button to chan
 
 For a working example of the game, please use the Code Sandbox link below:
 
-https://xqrmjm-1234.csb.app/
+https://7yjxpy-1234.csb.app/
 
 Alternatively, you can use this CodePen link for a slightly older version of the game:
 

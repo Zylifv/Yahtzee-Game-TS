@@ -16,12 +16,13 @@ Eventually add different ways the player can change outcomes with card effects, 
 I have now implemented a way for the user to click a one-time use button to change the rolls of a round of dice to be only even or odd numbers, giving the player more agency in how they approach the game. I will continue to add things like this later on such as a one time bonus dice that can roll a number of the users choosing. This is something that might come after a few levels hve been completed.
 
 
-For a working example of the game, please use the Code Sandbox link below:
+For a working example of the game, please use the CodePen link below:
+
+https://codepen.io/BobbyArmac/full/LENLWRR
+
+Alternatively, you can use this Code Sandbox link for the same game:
 
 https://7yjxpy-1234.csb.app/
 
-Alternatively, you can use this CodePen link for a slightly older version of the game:
-
-https://codepen.io/BobbyArmac/full/LENLWRR
 
 (Original repository deleted and replaced with this one because of necessary packages being added)
